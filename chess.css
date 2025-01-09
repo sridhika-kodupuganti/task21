@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    width:566px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    position: relative;
+    top: 50px;
+    border: 4px solid black;
+    
+    
+}
+ .container1 {
+    width: flex;
+    display: flex;
+    
+ }
+.container1 .item{
+    
+    width:70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+.container2{
+    display: flex;
+    
+}
+.container2 .item{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+}
+.container3{
+    display: flex;
+}
+.container3 .item{
+    width:70px;
+    height: 70px;
+    display: flex;
+}
+.container4{
+    display: flex;
+}
+.container4 .item{
+    width: 70px;
+    height: 70px;
+    display: flex;
+}
+.container5{
+    display: flex;
+
+}
+.container5 .item{
+    width: 70px;
+    height: 70px;
+    display: flex;
+}
+.container6{
+    display: flex;
+}
+.container6 .item{
+    width: 70px;
+    height: 70px;
+    display: flex;
+}
+.container7{
+    display: flex;
+}
+.containar7 .item{
+    width:70px;
+    height: 70px;
+    display: flex;
+}
+.container8 {
+    display: flex;
+
+}
+.container8 .item{
+    width:70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+.container9{
+    display: flex;
+}
+.container9 .item{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+.container1 .item:nth-child(odd){
+    background-color:lightslategray;
+    color: white;
+}
+.container2 .item:nth-child(even){
+    background-color: lightslategray;
+    color: white;
+}
+.container3 .item:nth-child(odd){
+
+    background-color: lightslategray;
+    color: white;
+}
+.container4 .item:nth-child(even){
+    background-color: lightslategray;
+    color: white;
+}
+.container5 .item:nth-child(odd){
+    background-color: lightslategray;
+    
+}
+.container6 .item:nth-child(even){
+    background-color: lightslategray;
+    color: white;
+}
+.container7 .item:nth-child(odd){
+    background-color: lightslategray;
+}
+.container8 .item:nth-child(odd){
+    background-color: lightslategray;
+    
+}
+.container9 .item:nth-child(even){
+    background-color: lightslategray;
+    
+}
